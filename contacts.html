@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться со мной</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./images/photo.png" alt="" class="photo">
+        <div class="name">
+            <p class="firstname">SHAKHZODA</p>
+            <p class="surname">ARTIKOVA</p>
+        </div>
+        <div class="title">
+            <p class="uxui">UX/UI</p>
+            <p class="profession">DESIGNER</p>
+        </div>
+    </div>
+    <div class="contactme">
+        <div class="box">
+            <div class="intro">
+                <p class="question">Хотите заказать дизайн проекта?</p>
+                <h4 class="text">Свяжитесь со мной:</h4>
+            </div>
+            <div class="return">
+                <a href="./index.html" class="cv">Резюме</a>
+            </div>
+        </div>
+        <form action="#">
+            <div class="first">
+                <div class="client-input">
+                    <label for="name" class="client">
+                        Имя 
+                    </label>
+                    <input id="name" class="client-name" type="text" name="name" placeholder="Иванов Иван">
+                </div>
+                <div class="number-input">
+                    <label for="number" class="number">
+                        Номер телефона
+                    </label>
+                    <input id="number" class="client-number" type="tel" name="number" value="+998">
+                </div>
+            </div>
+            <div class="second">
+                <div class="email-input">
+                    <label for="email" class="email">
+                        E-mail
+                    </label>
+                    <input id="email" class="client-email" type="email" name="email" placeholder="i.ivanov@gmail.com">
+                </div>
+                <div class="project-input">
+                    <label for="project" class="project">
+                        Проект
+                    </label>
+                    <select id="project" name="projects">
+                        <option value="choose">Выберите проект</option>
+                        <option value="landing">Лендинг</option>
+                        <option value="app">Приложение</option>
+                        <option value="website">Веб-сайт</option>
+                    </select>
+                </div>
+            </div>
+            <div class="third">
+                <label class="comment">
+                    Комментарий
+                    <textarea name="comment" placeholder="Дополнительные сведения о проекте"></textarea>
+                </label>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>

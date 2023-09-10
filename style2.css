@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.photo{
+    width: 150px;
+    margin: 50px;
+}
+
+.firstname{
+    font-size: 66px;
+    background: linear-gradient(to right, #E0C3FC , #8EC5FC);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    width: 380px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.surname{
+    font-size: 66px;
+    color: #292929;
+    width: 300px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.uxui{
+    font-size: 66px;
+    color: #292929;
+    width: 300px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.profession{
+    font-size: 66px;
+    background: linear-gradient(to right, #FA709A , #FEE140);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    width: 300px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    border-right: 5px solid #292929;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;  
+    padding-left: 50px;
+}
+
+.contactme{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.question{
+    font-size: 20px;
+    font-weight: 500;
+    color: #292929;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 800;
+    color: #292929;
+}
+
+form{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.client{
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+}
+
+.client-name{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid #292929;
+}
+
+.number{
+    gap: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+}
+
+.client-number{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid #292929;
+}
+
+.first{
+    display: flex;
+    gap: 30px;
+}
+
+.email{
+    gap: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+}
+
+.client-email{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid #292929;
+}
+
+.second{
+    display: flex;
+    gap: 30px;
+}
+
+.project{
+    gap: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+}
+
+select{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid #292929;
+    appearance: none;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    gap: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+}
+
+textarea{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 2px solid #292929;
+    width: 1000px;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    width: 1000px;
+    height: 57px;
+    border: 2px solid #2356F6;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900px;
+    background-color: #2356F6;
+    border-radius: 100px;
+    margin-bottom: 100px;
+    transition: 400ms;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #2356F6;
+    border: 2px solid #2356F6;
+}
+
+input:focus{
+    border-color: blue;
+}
+
+.client-input{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.number-input{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.email-input{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.project-input{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label{
+    display: inline;
+}
+
+.first label::after{
+    content: '*';
+    color: red;
+    font-size: 20px;
+}
+
+.second label::after{
+    content: '*';
+    color: red;
+    font-size: 20px;
+}
+
+.cv{
+    display: inline-block;
+    padding: 16px 120px;
+    font-size: 22px;
+    font-weight: 900px;
+    border: 2px solid #2356F6;
+    color: #2356F6;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.box{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 0px;
+    
+}
+
+.cv:hover{
+    background-color: #2356F6;
+    color: #fff;
+}
